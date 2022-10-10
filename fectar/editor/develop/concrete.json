@@ -1,0 +1,100 @@
+{
+  "%+3QEo$`(A-MF+Aw8}[O": {
+    "type": "onClick",
+    "id": "%+3QEo$`(A-MF+Aw8}[O",
+    "x": 49,
+    "y": 137,
+    "extraState": {
+      "dropdowns": []
+    },
+    "fields": {
+      "NAME": {
+        "id": "fIBoy`8.+k`X9l9dzm~6",
+        "name": "spot",
+        "type": ""
+      }
+    },
+    "inputs": {
+      "STATEMENTS": {
+        "block": {
+          "id": "d9.8iky@L[E`~|c4ro=g"
+        }
+      }
+    }
+  },
+  "?1b[gi2(Oz6)zX!}^_UH": {
+    "type": "setInterval",
+    "id": "?1b[gi2(Oz6)zX!}^_UH",
+    "x": 49,
+    "y": 245,
+    "extraState": {
+      "dropdowns": []
+    },
+    "fields": {
+      "INTERVAL": 1000
+    },
+    "inputs": {
+      "STATEMENTS": {
+        "block": {
+          "id": "I!cc)zFT#_%NGShq,}IT"
+        }
+      }
+    }
+  },
+  "d9.8iky@L[E`~|c4ro=g": {
+    "type": "spot_set_prop",
+    "id": "d9.8iky@L[E`~|c4ro=g",
+    "x": 70,
+    "y": 164,
+    "extraState": {
+      "dropdowns": [
+        {
+          "field": "PROPERTY",
+          "options": [
+            {
+              "text": "postion",
+              "id": "position"
+            },
+            {
+              "text": "rotation",
+              "id": "rotation"
+            },
+            {
+              "text": "is visible",
+              "id": "isVisible"
+            }
+          ]
+        }
+      ]
+    },
+    "fields": {
+      "PROPERTY": "isVisible",
+      "NAME": {
+        "id": "fIBoy`8.+k`X9l9dzm~6",
+        "name": "spot",
+        "type": ""
+      }
+    }
+  },
+  "I!cc)zFT#_%NGShq,}IT": {
+    "type": "forAllSpots",
+    "id": "I!cc)zFT#_%NGShq,}IT",
+    "x": 70,
+    "y": 272,
+    "extraState": {
+      "dropdowns": []
+    },
+    "fields": {
+      "NAME": {
+        "id": "fIBoy`8.+k`X9l9dzm~6",
+        "name": "spot",
+        "type": ""
+      }
+    }
+  },
+  "top_blocks": [
+    "%+3QEo$`(A-MF+Aw8}[O",
+    "?1b[gi2(Oz6)zX!}^_UH"
+  ],
+  "mergeable": true
+}
